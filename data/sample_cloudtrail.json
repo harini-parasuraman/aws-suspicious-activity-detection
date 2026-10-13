@@ -1,0 +1,162 @@
+{
+  "Records": [
+    {
+      "eventTime": "2026-09-10T10:00:00Z",
+      "eventName": "ConsoleLogin",
+      "eventSource": "signin.amazonaws.com",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "198.51.100.25",
+      "userIdentity": {
+        "type": "IAMUser",
+        "arn": "arn:aws:iam::111122223333:user/demo-user"
+      },
+      "errorCode": "Failed authentication"
+    },
+    {
+      "eventTime": "2026-09-10T10:01:00Z",
+      "eventName": "ConsoleLogin",
+      "eventSource": "signin.amazonaws.com",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "198.51.100.25",
+      "userIdentity": {
+        "type": "IAMUser",
+        "arn": "arn:aws:iam::111122223333:user/demo-user"
+      },
+      "errorCode": "Failed authentication"
+    },
+    {
+      "eventTime": "2026-09-10T10:02:00Z",
+      "eventName": "ConsoleLogin",
+      "eventSource": "signin.amazonaws.com",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "198.51.100.25",
+      "userIdentity": {
+        "type": "IAMUser",
+        "arn": "arn:aws:iam::111122223333:user/demo-user"
+      },
+      "errorCode": "Failed authentication"
+    },
+    {
+      "eventTime": "2026-09-10T10:04:00Z",
+      "eventName": "DescribeInstances",
+      "eventSource": "ec2.amazonaws.com",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "203.0.113.10",
+      "userIdentity": {
+        "type": "IAMUser",
+        "arn": "arn:aws:iam::111122223333:user/demo-user"
+      }
+    },
+    {
+      "eventTime": "2026-09-10T10:06:00Z",
+      "eventName": "PutBucketPolicy",
+      "eventSource": "s3.amazonaws.com",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "203.0.113.10",
+      "userIdentity": {
+        "type": "IAMUser",
+        "arn": "arn:aws:iam::111122223333:user/demo-user"
+      }
+    },
+    {
+      "eventTime": "2026-09-10T10:07:00Z",
+      "eventName": "GetObject",
+      "eventSource": "s3.amazonaws.com",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "203.0.113.10",
+      "userIdentity": {
+        "type": "IAMUser",
+        "arn": "arn:aws:iam::111122223333:user/demo-user"
+      },
+      "errorCode": "AccessDenied"
+    },
+    {
+      "eventTime": "2026-09-10T10:20:00Z",
+      "eventName": "ListBuckets",
+      "eventSource": "s3.amazonaws.com",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "203.0.113.11",
+      "userIdentity": {
+        "type": "IAMUser",
+        "arn": "arn:aws:iam::111122223333:user/read-only-user"
+      }
+    },
+    {
+      "eventTime": "2026-09-10T10:21:00Z",
+      "eventName": "GetObject",
+      "eventSource": "s3.amazonaws.com",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "203.0.113.11",
+      "userIdentity": {
+        "type": "IAMUser",
+        "arn": "arn:aws:iam::111122223333:user/read-only-user"
+      }
+    },
+    {
+      "eventTime": "2026-09-10T10:35:00Z",
+      "eventName": "DescribeInstances",
+      "eventSource": "ec2.amazonaws.com",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "203.0.113.12",
+      "userIdentity": {
+        "type": "IAMUser",
+        "arn": "arn:aws:iam::111122223333:user/demo-user"
+      }
+    },
+    {
+      "eventTime": "2026-09-10T10:36:00Z",
+      "eventName": "DescribeInstances",
+      "eventSource": "ec2.amazonaws.com",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "203.0.113.12",
+      "userIdentity": {
+        "type": "IAMUser",
+        "arn": "arn:aws:iam::111122223333:user/demo-user"
+      }
+    },
+    {
+      "eventTime": "2026-09-10T10:50:00Z",
+      "eventName": "GetCallerIdentity",
+      "eventSource": "sts.amazonaws.com",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "203.0.113.13",
+      "userIdentity": {
+        "type": "IAMUser",
+        "arn": "arn:aws:iam::111122223333:user/analyst"
+      }
+    },
+    {
+      "eventTime": "2026-09-10T11:05:00Z",
+      "eventName": "CreateAccessKey",
+      "eventSource": "iam.amazonaws.com",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "198.51.100.99",
+      "userIdentity": {
+        "type": "IAMUser",
+        "arn": "arn:aws:iam::111122223333:user/demo-user"
+      }
+    },
+    {
+      "eventTime": "2026-09-10T11:06:00Z",
+      "eventName": "PutUserPolicy",
+      "eventSource": "iam.amazonaws.com",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "198.51.100.99",
+      "userIdentity": {
+        "type": "IAMUser",
+        "arn": "arn:aws:iam::111122223333:user/demo-user"
+      }
+    },
+    {
+      "eventTime": "2026-09-10T11:20:00Z",
+      "eventName": "ListBuckets",
+      "eventSource": "s3.amazonaws.com",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "203.0.113.14",
+      "userIdentity": {
+        "type": "IAMUser",
+        "arn": "arn:aws:iam::111122223333:user/analyst"
+      }
+    }
+  ]
+}
